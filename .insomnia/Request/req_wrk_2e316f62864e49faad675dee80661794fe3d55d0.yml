@@ -1,0 +1,35 @@
+_id: req_wrk_2e316f62864e49faad675dee80661794fe3d55d0
+type: Request
+parentId: fld_wrk_2e316f62864e49faad675dee8066179412dea96f
+modified: 1668675182185
+created: 1668674995389
+url: "{{ base_url }}/user"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "username": "peterparker",
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "email": "peterparker@tonystarkindustries.com",
+      "password": "peterparker90",
+      "phone": "+40 741 123 456",
+      "userStatus": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668674995389
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
